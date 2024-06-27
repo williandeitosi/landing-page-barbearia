@@ -4,14 +4,16 @@ import { About } from './components/About/About';
 import { Header } from './components/Heeader/Header';
 import { Hours } from './components/Hours/Hours';
 import { ImgSalon } from './components/ImgSalon/ImgSalon';
+import { Services } from './components/Services/Services';
 
 function App() {
   return (
-    <div className=''>
+    <div className='bg-zinc-[#eeeeee]	'>
       <Header />
       <ImgSalon bgimg={salon} bgalt='salon' img={skull} alt='logo' />
       <About />
       <Hours />
+      <Services />
     </div>
   );
 }
