@@ -1,6 +1,7 @@
 import salon from './assets/baberSalon.jpg';
 import skull from './assets/skullBg.png';
 import { About } from './components/About/About';
+import { Footer } from './components/Footer/Footer';
 import { Header } from './components/Heeader/Header';
 import { Hours } from './components/Hours/Hours';
 import { ImgSalon } from './components/ImgSalon/ImgSalon';
@@ -14,6 +15,7 @@ function App() {
       <About />
       <Hours />
       <Services />
+      <Footer />
     </div>
   );
 }
