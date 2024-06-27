@@ -6,6 +6,7 @@ import { Header } from './components/Heeader/Header';
 import { Hours } from './components/Hours/Hours';
 import { ImgSalon } from './components/ImgSalon/ImgSalon';
 import { Services } from './components/Services/Services';
+import { Wahtsapp } from './components/Whatsapp/Whatsapp';
 
 function App() {
   return (
@@ -16,6 +17,10 @@ function App() {
       <Hours />
       <Services />
       <Footer />
+      <Wahtsapp
+        phoneNumber='15551234567'
+        message='Olá gostaria de saber mais sobre os serviços'
+      />
     </div>
   );
 }

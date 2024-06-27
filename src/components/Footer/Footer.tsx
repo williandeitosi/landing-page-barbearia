@@ -5,7 +5,7 @@ export function Footer() {
     <footer className='bg-zinc-900 flex justify-between items-center p-8'>
       <p className='text-white text-xl'>@2024 Barbearia</p>
       <p className='text-white text-xl'>
-        Rua: fictícia - Bairro: fictícia - N: 99999 Tel: 99999-9999
+        Rua: fictícia - Bairro: fictícia - N: 99999 Tel: (99) 99999-9999
       </p>
       <div className='flex gap-3'>
         <a href='#'>
