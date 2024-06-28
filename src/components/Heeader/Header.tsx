@@ -14,7 +14,7 @@ export function Header() {
       <img src={skull} alt='logo' className='w-20 ' />
       <div className='hidden lg:flex gap-10 text-base'>
         <a className='hover:font-bold' href='#'>
-          Sobre
+          Horários
         </a>
         <a className='hover:font-bold' href='#'>
           Serviços
@@ -38,7 +38,7 @@ export function Header() {
         <ul className='p-2'>
           <li>
             <a className='hover:font-bold' href='#'>
-              Sobre
+              Horários
             </a>
           </li>
           <li>

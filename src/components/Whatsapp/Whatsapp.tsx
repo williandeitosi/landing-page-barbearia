@@ -10,7 +10,7 @@ export function Wahtsapp({ phoneNumber, message = '' }: zapProps) {
   )}`;
   return (
     <a
-      className='fixed w-28 bottom-20 right-4 z-50'
+      className='fixed w-20 md:w-28 bottom-20 right-4 z-50'
       href={whatsappUrl}
       target='_blank'
     >
