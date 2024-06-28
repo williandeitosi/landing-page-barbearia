@@ -13,7 +13,11 @@ export function ImgSalon({ bgimg, bgalt, img, alt }: ImageData) {
         src={bgimg}
         alt={bgalt}
       />
-      <img className='absolute inset-0  m-auto w-64' src={img} alt={alt} />
+      <img
+        className='absolute inset-0  m-auto  w-32 md:w-64 sm:w-48'
+        src={img}
+        alt={alt}
+      />
     </div>
   );
 }
