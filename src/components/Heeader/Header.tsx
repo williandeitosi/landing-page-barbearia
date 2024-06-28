@@ -31,7 +31,7 @@ export function Header() {
       </button>
 
       <div
-        className={`absolute z-50 top-24 right-0 w-full text-center bg-yellow-500 shadow-md rounded-b-lg overflow-hidden transition-max-height duration-500 ease-in-out ${
+        className={`absolute z-50 top-[90px] right-0 w-full text-center bg-yellow-500 shadow-md rounded-b-lg overflow-hidden transition-max-height duration-500 ease-in-out ${
           isOpen ? 'max-h-40' : 'max-h-0 hidden'
         }`}
       >
