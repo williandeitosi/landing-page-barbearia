@@ -5,7 +5,7 @@ interface ProductsProp {
   price: string;
   img: string;
   description: string;
-  className?: string; // Adicionar className opcional
+  className?: string;
 }
 
 export function CardProducts({
