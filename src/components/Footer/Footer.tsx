@@ -6,7 +6,7 @@ export function Footer() {
       <p className='text-white text-xl mb-3'>@2024 Barbearia</p>
       <p className='text-white text-xl flex gap-3 flex-col md:flex-row md:gap-5 justify-center items-center mb-3'>
         <span>Rua: fictícia</span>
-        <span>Bairro: fictícia</span>
+        <span>Bairro: fictício</span>
         <span>N: 99999</span>
         <span>Tel: (99) 99999-9999</span>
       </p>
