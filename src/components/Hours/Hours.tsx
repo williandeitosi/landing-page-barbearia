@@ -1,6 +1,9 @@
 export function Hours() {
   return (
-    <section className='bg-[#333] text-white py-12 md:py-16 px-4 md:px-8'>
+    <section
+      id='hours'
+      className='bg-[#333] text-white py-12 md:py-16 px-4 md:px-8'
+    >
       <div className='container mx-auto'>
         <h2 className='text-2xl md:text-3xl font-bold mb-6'>Nossos Horários</h2>
         <div className='overflow-x-auto'>

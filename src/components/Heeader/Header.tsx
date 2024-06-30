@@ -13,13 +13,13 @@ export function Header() {
     <header className='flex justify-between items-center px-4 lg:px-16 xl:px-20 bg-yellow-500 h-24'>
       <img src={skull} alt='logo' className='w-20 ' />
       <div className='hidden lg:flex gap-10 text-base'>
-        <a className='hover:font-bold' href='#'>
+        <a className='hover:font-bold' href='#hours'>
           Horários
         </a>
-        <a className='hover:font-bold' href='#'>
+        <a className='hover:font-bold' href='#services'>
           Serviços
         </a>
-        <a className='hover:font-bold' href='#'>
+        <a className='hover:font-bold' href='#products'>
           Produtos
         </a>
       </div>
@@ -37,17 +37,17 @@ export function Header() {
       >
         <ul className='p-2'>
           <li>
-            <a className='hover:font-bold' href='#'>
+            <a className='hover:font-bold' href='#hours'>
               Horários
             </a>
           </li>
           <li>
-            <a className='hover:font-bold' href='#'>
+            <a className='hover:font-bold' href='#services'>
               Serviços
             </a>
           </li>
           <li>
-            <a className='hover:font-bold' href='#'>
+            <a className='hover:font-bold' href='#products'>
               Produtos
             </a>
           </li>
