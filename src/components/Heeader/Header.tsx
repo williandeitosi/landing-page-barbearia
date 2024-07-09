@@ -37,17 +37,25 @@ export function Header() {
       >
         <ul className='p-2'>
           <li>
-            <a className='hover:font-bold' href='#hours'>
+            <a onClick={handleClick} className='hover:font-bold' href='#hours'>
               Horários
             </a>
           </li>
           <li>
-            <a className='hover:font-bold' href='#services'>
+            <a
+              onClick={handleClick}
+              className='hover:font-bold'
+              href='#services'
+            >
               Serviços
             </a>
           </li>
           <li>
-            <a className='hover:font-bold' href='#products'>
+            <a
+              onClick={handleClick}
+              className='hover:font-bold'
+              href='#products'
+            >
               Produtos
             </a>
           </li>
